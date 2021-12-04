@@ -101,7 +101,12 @@ pycharm 配置本地新安装的git.exe  ../.. git
 
 第三步：
 
+第四步： 通过命令行查看 git status 发现如下问题
+会发现本地仓库中不会包含logs 和 html_reports 文件夹，
+是想保存文件夹，就是不要文件夹中的文件
+解决方案：在文件夹中增加一个.gitkeep的空文件
 
+第五步：添加到本地仓库  git  commit - m
 
 '''
 
