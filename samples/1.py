@@ -108,8 +108,20 @@ pycharm 配置本地新安装的git.exe  ../.. git
 
 第五步：添加到本地仓库  git  commit - m
 
-'''
+第六部： 上传到远程仓库
+6.1、创建标签----版本号：V1.0
+a) 在pycharm 中查看版本号
+b) 创建标贴
 
-print('new01')
+6.2 在github 上创建一个新项目，项目名称和本地仓库项目名称一致
+
+6.3 在pycharm 添加远程仓库
+https://github.com/wujinshu520/Line_API_TEST_FRAME.git
+点击ok，可能输入github账号和密码
+
+6.4 提交到远程仓库
+
+
+'''
 
 
